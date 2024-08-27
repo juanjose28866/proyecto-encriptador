@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encryptador/Desencryptador</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="/Assets/alura.png" />
+  </head>
+  <body>
+    <canvas id="c"></canvas>
+    <div class="all1">
+      <h1>Encryptador / Desencryptador</h1>
+
+      <textarea id="text" rows="4" cols="50">
+Bienvenido aqui inicia el secreto</textarea
+      ><br />
+      <div class="inputs">
+        <input type="radio" id="encrypt" name="option" value="encrypt" />
+        <label for="encrypt">Encryptar</label><br />
+        <input type="radio" id="decrypt" name="option" value="decrypt" />
+        <label for="decrypt">desencryptar</label><br />
+      </div>
+      <button onclick="processText()">Procesar</button><br />
+
+      <textarea id="result" rows="4" cols="50" readonly></textarea><br />
+      <button onclick="copyToClipboard()">Copiar</button><br />
+      <footer>
+        <div class="footer-content">
+          <p>
+            Desarrollado por:
+            <a href="https://www.instagram.com/fdominguez2886/" target="_blank"
+              >Juan Dominguez</a
+            >
+          </p>
+          <div class="social-links">
+            <a href="www.linkedin.com/in/juan-jose-dominguez-974aa489" target="_blank"
+              >LinkedIn</a
+            >
+            <a href="https://github.com/juanjose28866" target="_blank">GitHub</a>
+            <p>Challenge #1 dessarrollado para el programa one oracle g7 año: 2024.</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+    <script src="/Assets/background.js"></script>
+  </body>
+</html>
