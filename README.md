@@ -1,34 +1,31 @@
 # Challenge Encryptor Decryptor
 # Oracle Next Education G7 Challenge 1: Encryptor/Decryptor
 
-Welcome to the first challenge for the Oracle Next Education G6 program! This project focuses on creating an encryptor and decryptor using the combination of HTML, CSS, and JavaScript.
+¡Bienvenido al primer desafío del programa Oracle Next Education G7! Este proyecto se centra en la creación de un cifrador y descifrador utilizando la combinación de HTML, CSS y JavaScript.
 
-## Encryption Keys
-In this challenge, we will use the following encryption keys:
-- "e" converts to "enter"
-- "i" converts to "imes"
-- "a" converts to "ai"
-- "o" converts to "ober"
-- "u" converts to "ufat"
+## Claves de cifrado
+En este desafío, usaremos las siguientes claves de cifrado:
+- "e" se convierte en "enter"
+- "i" se convierte en "veces"
+- "a" se convierte en "ai"
+- "o" se convierte en "ober"
+- "u" se convierte en "ufat"
 
-## Requirements
-- The application should work only with lowercase letters.
-- Do not use letters with accents or special characters.
-- It should be possible to convert a word to its encrypted version and vice versa.
+## Requisitos
+- La aplicación debería funcionar sólo con letras minúsculas.
+- No utilices letras con tildes o caracteres especiales.
+- Debería ser posible convertir una palabra a su versión cifrada y viceversa.
 
-### Examples:
+### Ejemplos:
 - "gato" => "gaitober"
 - "gaitober" => "gato"
 
-## Features
-The web page should include:
-- Fields for inserting the text to be encrypted or decrypted.
-- Options for the user to choose between encryption and decryption.
-- Display the result on the screen.
+## Características
+La página web debe incluir:
+- Campos para insertar el texto a cifrar o descifrar.
+- Opciones para que el usuario elija entre cifrado y descifrado.
+- Mostrar el resultado en la pantalla.
 
-### Extra Feature
-- Implement a button to copy the encrypted/decrypted text to the clipboard, similar to the functionality of ctrl+C or the "copy" option in application menus.
+### Característica adicional
+- Implementar un botón para copiar el texto cifrado/descifrado al portapapeles, similar a la funcionalidad de Ctrl+C o la opción "copiar" en los menús de la aplicación.
 
-Feel free to make it visually appealing and user-friendly!
-
-Happy coding! 🚀
